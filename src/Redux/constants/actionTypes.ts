@@ -1,0 +1,11 @@
+const ACTION_TYPES = {
+  AUTH: {
+    SET_IS_LOGIN: 'SET_IS_LOGIN',
+  },
+  THEME: {
+    CHANGE_THEME: 'CHANGE_THEME',
+    SET_DEFAULT_THEME: 'SET_DEFAULT_THEME',
+  },
+};
+
+export {ACTION_TYPES};
