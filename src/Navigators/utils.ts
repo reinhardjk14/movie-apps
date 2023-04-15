@@ -10,8 +10,8 @@ import {
 } from '@react-navigation/native';
 
 type RootStackParamList = {
-  LoginScreen: undefined;
-  RegisterScreen: undefined;
+  TrendingThisWeek: undefined;
+  MovieDetailScreen: undefined;
   Tabs: undefined;
   ForgotPassword: undefined;
 };

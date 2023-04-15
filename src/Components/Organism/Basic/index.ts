@@ -3,6 +3,7 @@ import {StatusBarProps, StyleProp, ViewProps, ViewStyle} from 'react-native';
 import {KeyboardAwareScrollViewProps} from 'react-native-keyboard-aware-scroll-view';
 import Container from './Container';
 import Content from './Content';
+import Header from './Header';
 
 export interface IContainer extends ViewProps {
   children: React.ReactNode;
@@ -18,4 +19,4 @@ export interface IContent extends KeyboardAwareScrollViewProps {
   showsVerticalScrollIndicator?: boolean;
 }
 
-export {Container, Content};
+export {Container, Content, Header};

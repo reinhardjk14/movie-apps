@@ -1,5 +1,5 @@
-import LoginContainer from './LoginContainer';
-import RegisterContainer from './RegisterContainer';
+import TrendingThisWeek from './TrendingThisWeek';
+import MovieDetail from './MovieDetail';
 import ForgotPassword from './ForgotPassword';
 
-export {LoginContainer, RegisterContainer, ForgotPassword};
+export {TrendingThisWeek, MovieDetail, ForgotPassword};

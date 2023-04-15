@@ -1,22 +1,18 @@
-import {
-  ForgotPassword,
-  LoginContainer,
-  RegisterContainer,
-} from '@Container/index';
+import {ForgotPassword, TrendingThisWeek, MovieDetail} from '@Container/index';
 import TabNavigator from '@Container/Tabs';
 import {CardStyleInterpolators} from '@react-navigation/stack';
 
 const Unauthorized = [
   {
-    name: 'LoginScreen',
-    component: LoginContainer,
+    name: 'TrendingThisWeek',
+    component: TrendingThisWeek,
     options: {
       headerShown: false,
     },
   },
   {
-    name: 'RegisterScreen',
-    component: RegisterContainer,
+    name: 'MovieDetailScreen',
+    component: MovieDetail,
     options: {
       headerShown: false,
     },

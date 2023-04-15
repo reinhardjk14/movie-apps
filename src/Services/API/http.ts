@@ -1,12 +1,10 @@
 import Axios from 'axios';
 import {store} from 'src/Redux';
-// import {setIsLogin} from '_actions/main';
 
-import {BASE_URL} from '../BaseURL';
 const {dispatch} = store;
 
 const instance = Axios.create({
-  baseURL: BASE_URL,
+  baseURL: 'https://api.themoviedb.org/3',
 });
 
 instance.interceptors.request.use(
